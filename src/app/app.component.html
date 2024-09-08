@@ -1,4 +1,77 @@
-<h1>Enter new task</h1>
-<input type="text" #taskInput placeholder="Enter new task">
-<br><br>
-<button (click)="AddTask(taskInput.value)">Click Me</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S4DS Society</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>S4DS - Technical Society</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>The S4DS Society is a student-run technical club focused on innovation, technology, and skill-building.</p>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+        <div class="container">
+            <h2>Our Events</h2>
+            <div class="event">
+                <h3>Workshop on AI & Machine Learning</h3>
+                <p>Learn the basics of AI and ML with hands-on experience!</p>
+            </div>
+            <div class="event">
+                <h3>Hackathon 2024</h3>
+                <p>24-hour hackathon to showcase your coding skills and build solutions to real-world problems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-member">
+                <h3>Suryansh Patwal</h3>
+                <p>President</p>
+            </div>
+            <div class="team-member">
+                <h3>Ayush Singh</h3>
+                <p>Vice President</p>
+            </div>
+            <!-- Add more team members as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: s4ds.society&#64;example.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 S4DS Society. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
